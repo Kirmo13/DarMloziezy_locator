@@ -1,18 +1,27 @@
-<html lang="it">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <title>Dovè Mattias?</title>
     <link href="style.css" rel="stylesheet" />
   </head>
 
   <body>
-    <script language = "JavaScript" type="text/javascript">
-    var width="100%";var height= (0.98 * window.innerHeight) + "";
-    var imo=7821075;
-    var show_track=true;
-    var names=true;
-    </script><script type="text/javascript" src="https://www.vesselfinder.com/aismap.js"></script>
+    <!-- <script language = "JavaScript" type="text/javascript">
+      var width="100%";var height= (0.98 * window.innerHeight) + "";
+      var imo=7821075;
+      var show_track=true;
+      var names=true;
+    </script><script type="text/javascript" src="https://www.vesselfinder.com/aismap.js"></script> -->
+
+    <script type="text/javascript">
+      width='100%';		// the width of the embedded map in pixels or percentage
+      height='99%';		// the height of the embedded map in pixels or percentage
+      border='10';		// the width of the border around the map (zero means no border)
+      shownames='false';	// to display ship names on the map (true or false)
+      maptype='0';		// use 0 for Normal Map, 1 for Satellite
+      trackvessel='261148000';	// MMSI of a vessel (note: vessel will be displayed only if within range of the system) - overrides "zoom" option
+    </script>
+    <script type="text/javascript" src="//www.marinetraffic.com/js/embed.js"></script>
+
   </body>
 </html>
